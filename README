@@ -12,3 +12,14 @@ SSH Key 등록
 본인 계정의 https://github.com/settings/
 복사한 SSH Key를 등록.
 
+commit 이후 remote로 push 할 때
+
+git remote add origin https://github.com/actus/2012_Actus_Hanium.git
+git push -u origin master
+
+git remote add origin은 자신의 local git에 origin을 등록하는 것이므로 한번만 실행하면 됨.
+이후에는 origin이 https://github.com/actus/2012_Actus_Hanium.git을 갈음하므로 이후부터는
+push시에 두번째 줄만 실행.
+
+github에서 터미널 사용하지 않고 쓰는 방법을 만들어 놓은 것 같으니 
+이건 아니다 싶은 사람은 다른 방법을 찾아보시오~
