@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_cartoon" 
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_game1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip" 
+        android:background="@drawable/btn_game1"
+     android:layout_margin="10sp" />
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_game2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:textSize="30dp" 
+         android:background="@drawable/btn_game2"
+     android:layout_margin="10sp" />/>
+
+</LinearLayout>

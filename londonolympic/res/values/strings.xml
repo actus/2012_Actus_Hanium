@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">올림픽런던</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">2012올림픽</string>
+
+</resources>

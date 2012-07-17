@@ -1,0 +1,13 @@
+Set Up Git
+https://help.github.com/articles/set-up-git
+
+SSH Key 생성
+~$ ssh-keygen -t rsa
+끝날때까지 엔터
+
+~$ cat ~/.ssh/id_rsa.pub
+
+SSH Key 등록
+본인 계정의 https://github.com/settings/
+
+

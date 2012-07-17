@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_cartoon" 
+    >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:padding="15dp"
+  >
+
+    <Button
+        android:id="@+id/bnt0726"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 7월 26일 (묙)" 
+        android:background="#00D7FF"
+        android:textSize="25dp"
+        
+        />
+
+    <Button
+        android:id="@+id/bnt0727"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 7월 27일 (금)" 
+        android:background="#D2FFD2"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bnt0728"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 7월 28일 (토)"
+        android:background="#00D7FF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/bnt0729"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 7월 29일 (일)"
+         android:background="#D2FFD2" 
+         android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bnt0730"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 7월 30일 (월)" 
+        android:background="#00D7FF"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bnt0731"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 7월 31일 (화)"
+         android:background="#D2FFD2"
+         android:textSize="25dp"
+         />
+
+    <Button
+        android:id="@+id/bnt0801"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 1일 (수)" 
+        android:background="#00D7FF"
+        android:textSize="25dp"/>
+    
+        <Button
+        android:id="@+id/bnt0802"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 2일 (목)"
+         android:background="#D2FFD2"
+         android:textSize="25dp"
+        />
+        
+        
+            <Button
+        android:id="@+id/bnt0803"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 3일 (금)"
+         android:background="#00D7FF" 
+         android:textSize="25dp"/>
+            
+            
+        <Button
+        android:id="@+id/bnt0804"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 4일 (토)" 
+         android:background="#D2FFD2"
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0805"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 5일 (일)" 
+         android:background="#00D7FF"
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0806"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 6일 (월)"
+         android:background="#D2FFD2" 
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0807"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 7일 (화)" 
+         android:background="#00D7FF"
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0808"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 8일 (수)" 
+         android:background="#D2FFD2"
+         android:textSize="25dp"/>
+        
+         <Button
+        android:id="@+id/bnt0809"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 9일 (금)" 
+         android:background="#00D7FF"
+         android:textSize="25dp"/>
+         
+          <Button
+        android:id="@+id/bnt0810"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 10일 (토)"
+         android:background="#D2FFD2"
+         android:textSize="25dp" />
+          
+           <Button
+        android:id="@+id/bnt0811"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 11일 (일)"
+         android:background="#00D7FF"
+         android:textSize="25dp" />
+           
+            <Button
+        android:id="@+id/bnt0812"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 12일 (월)"
+         android:background="#D2FFD2" 
+         android:textSize="25dp"/>
+            
+                <Button
+        android:id="@+id/bnt0813"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2012년 8월 13일 (화)"
+         android:background="#00D7FF"
+         android:textSize="25dp" />
+
+                                
+  </LinearLayout>
+</ScrollView>
