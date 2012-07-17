@@ -6,8 +6,9 @@ SSH Key 생성
 끝날때까지 엔터
 
 ~$ cat ~/.ssh/id_rsa.pub
+이후에 출력되는 문자들을 전부 복사
 
 SSH Key 등록
 본인 계정의 https://github.com/settings/
-
+복사한 SSH Key를 등록.
 
