@@ -1,0 +1,26 @@
+Server(Node.js) - 재영, 호준
+:Node.js 에 대해서 알아보고 서버 동작시켜볼 것.
+소켓통신(socket.io) 및 파일시스템(fs), json 사용법에 대해서 알아 볼 것.
+
+Client(Three.js, Scene.js) - 자정, 윤성
+:Three.js, Scence.js 기술 조사 후 8월 프로젝트에서 어떤 프레임워크를 사용할 것인지 결정.
+왜 그 기술을 사용할 것인지에 대한 근거 및 기초 사용법 발표.
+
+Agile Scrum - 은지, 종덕
+:Agile Scrum에 대해서 조사 및 적용방법에 대해서 발표.
+아래 3가지 roll에 대해서 설명할 것.
+Project Owner(Iteration, backlog 설정), Scrum Master(운영, 조율), Programmer(개발)
+
+Jum(Unity3d) - 보라미, 수연
+:Jum을 Unity3d에서 webgl로 옮기기 위해서 필요한 사전 지식 및 스토리보드 작성.
+
+일정 
+~ 7/28 
+: 사전 기술 조사 및 선택. 
+조사한 기술 및 방법에 대해서 공유.
+전체에 대한 backlog 작성.
+Iteration을 2개로 나누기 위한 일정 작성.
+
+7/31 ~ 8/31
+:Iteration에 따른 개발 및 Scrum으로 운영.
+Iteration마다 Project Owner 역할과 Scrum Master의 역할을 맡은 사람은 변경될 예정.
