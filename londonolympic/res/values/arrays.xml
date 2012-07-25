@@ -1,0 +1,14 @@
+<resources>
+	
+	<string-array name="Site">
+		<item> london</item>
+		<item> cardiff</item>
+		<item> manchester</item>
+		<item> glasgow</item>
+		<item> coventry</item>
+	    <item> newcastle</item>
+	    <item> Buckinghamshire</item>
+	    
+	</string-array>
+	
+</resources>

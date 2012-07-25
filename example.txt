@@ -1,0 +1,37 @@
+public HashSet<Integer> positions = new HashSet<Integer>();
+
+…
+
+listView.setOnItemClickListener(new ListView.OnItemClickListener() {
+…
+
+public void onClick(DialogInterface dialog, int item) {
+						
+	positions.add(_position);
+	Log.e("OnClickListener", ""+ _position + " Set: " + positions.toString());
+	am.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, 1000, p);
+	_view.setBackgroundColor(0xFFFF0000);
+
+…
+
+private class CustomAdapter extends ArrayAdapter<HashMap<String, String>>{
+
+…
+
+public View getView(int position, View convertView, ViewGroup parent) {
+
+…
+
+	convertView.setBackgroundColor(Color.WHITE);
+	for(int savedPosition : positions)
+	{
+		if(position == savedPosition)
+		{
+			convertView.setBackgroundColor(Color.RED);
+			Log.e("CustomAdapter","savedPosition"+savedPosition + " position: " + position);
+		}
+
+	}
+
+…
+

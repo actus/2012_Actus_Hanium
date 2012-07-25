@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_cartoon" 
+     
+    >
+      <TextView
+        android:id="@+id/introexplain_name"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="이름입니다."
+        android:textSize="20dp"
+         />
+
+       <ImageView
+        android:id="@+id/intro_image"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/wb1"
+         />
+       <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/introexplain_text"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:text="여기로오라고!!!"
+        android:textSize="20dp"
+         />
+    
+   </ScrollView>
+</LinearLayout>

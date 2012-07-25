@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_cartoon" 
+    >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:padding="15dp"
+  >
+
+    <Button
+        android:id="@+id/bnt0726"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:background="@drawable/d1" 
+        
+        />
+
+    <Button
+        android:id="@+id/bnt0727"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d2" 
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bnt0728"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   android:background="@drawable/d3" 
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/bnt0729"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d4" 
+         android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bnt0730"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d5" 
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/bnt0731"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      android:background="@drawable/d6" 
+         android:textSize="25dp"
+         />
+
+    <Button
+        android:id="@+id/bnt0801"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d7" 
+        android:textSize="25dp"/>
+    
+        <Button
+        android:id="@+id/bnt0802"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d8" 
+         android:textSize="25dp"
+        />
+        
+        
+            <Button
+        android:id="@+id/bnt0803"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d9" 
+         android:textSize="25dp"/>
+            
+            
+        <Button
+        android:id="@+id/bnt0804"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d10" 
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0805"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d11" 
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0806"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d12" 
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0807"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d13" 
+         android:textSize="25dp"/>
+        
+        
+        <Button
+        android:id="@+id/bnt0808"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d14" 
+         android:textSize="25dp"/>
+        
+         <Button
+        android:id="@+id/bnt0809"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d15" 
+         android:textSize="25dp"/>
+         
+          <Button
+        android:id="@+id/bnt0810"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d16" 
+         android:textSize="25dp" />
+          
+           <Button
+        android:id="@+id/bnt0811"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:background="@drawable/d17" 
+         android:textSize="25dp" />
+           
+            <Button
+        android:id="@+id/bnt0812"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d18" 
+         android:textSize="25dp"/>
+            
+                <Button
+        android:id="@+id/bnt0813"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      android:background="@drawable/d19" 
+         android:textSize="25dp" />
+                
+                
+
+                
+
+                                
+  </LinearLayout>
+</ScrollView>

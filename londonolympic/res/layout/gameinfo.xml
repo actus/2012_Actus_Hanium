@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_cartoon" >
+
+<Button
+    android:id="@+id/gameinfo"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+     android:background="@drawable/btn_stadium_info"
+     android:layout_margin="10sp" />
+        
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp">
+
+        <Button
+            android:id="@+id/btn_site"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_mini_1"
+             android:layout_margin="5sp"
+            android:layout_weight="1"/>
+        
+
+        <Button
+            android:id="@+id/btn_parsing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/btn_mini_2"
+              android:layout_margin="5sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:layout_marginTop="3dp" android:layout_marginLeft="3dp">
+        <TextView
+            android:id="@+id/tv_postal_code"            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="3dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp"
+            android:layout_weight="1" android:text="도시명 : "
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_condition"            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="3dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp"
+            android:layout_weight="1" android:text="현재 날씨 : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_temp_f"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp"
+            android:text="화씨 온도 : " android:layout_weight="1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_temp_c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp"
+            android:text="섭씨 온도 : " android:layout_weight="1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_humidity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="3dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp"
+            android:text="습도 : " android:layout_weight="1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_wind"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp" 
+        android:layout_marginLeft="3dp" 
+        android:layout_marginRight="3dp"
+            android:text="바람 : " android:layout_weight="1"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
