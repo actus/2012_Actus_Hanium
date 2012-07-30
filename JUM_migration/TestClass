@@ -1,0 +1,65 @@
+
+
+//====================== 에러가 나면 에러가 나는 이유를, 그렇지 않다면 혹은 정답 적을것 =====================
+class TestClass
+{
+	String nodeServer = "재영"+" 호준";
+	String webGLClient = "자정" + " 윤성";
+	String agileScrum = "은지" + " 종덕";
+	String jumPorting = "보라미" + " 수연";
+
+	private String plus(String param1, String param2)
+	{
+		return	param1 + " " + param2;
+	}	
+	
+	private String plus(String param1, String param2, String param3)
+	{
+		return param1 + " " + param2 + " " + param3; 	
+	}
+	
+	public static void main(String [] args)
+	{
+		int intOne = 1;
+		int stringOne = "1";
+		
+		System.out.println(1 + intOne + "");
+		//
+		
+		System.out.println(1 + "" + intOne);
+		//
+		
+		System.out.println("" + 1 + intOne);
+		//
+		
+		System.out.println(1 + intOne + stringOne);
+		//
+		
+		System.out.println(intOne + stringOne + 1);
+		//
+		
+		System.out.println(stringOne + 1 + intOne);
+		//
+		
+		System.out.println(plus(nodeServer, webGLClient);
+		//
+		
+		String team = plus(nodeServer, webGLClient, agileScrum);
+		plus(nodeServer, webGLClient, agileScrum, jumPorting);
+		System.out.println(team);
+		//
+		
+		team = plus(nodeServer, webGLClient);
+		System.out.println(team + plus(agileScrum, jumPorting));
+		//
+		
+		System.out.println(plus(nodeServer, webGLClient, agileScrum, jumPorting));
+		//
+		
+	}	
+	
+	private String plus(String param1, String param2, String param3, String param4)
+	{
+		return param1 + " " + param2 + " " + param3 + " " + param4; 	
+	}
+}
